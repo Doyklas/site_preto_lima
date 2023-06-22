@@ -1,0 +1,184 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  font-family: Arial, sans-serif;
+  width: auto;
+  height: auto;
+  padding: 0px 50px;
+  color: #fff;
+  background: #000;
+  
+}
+header{
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: space-between; */
+  height: auto;
+}
+header img{
+  height: auto;
+  width: 250px;
+  
+}
+header div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div .entrar{
+  display: flex;
+  justify-content: space-between;
+}
+header .entrar ul li{
+  font-size: 16px;
+  background-color: #ec7913;
+  border-radius: 4px;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  float: right;
+}
+header .entrar ul li a{
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 6px;
+  display: flex;
+  
+}
+.menu{
+  font-size: 12px;
+  width: auto;
+  background: #d9d9d9;
+  border: 0px solid orange;
+  border-radius: 0px;
+}
+.menu ul li{
+  display: inline;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.menu ul li a{
+  display: inline-block;
+  margin-right: 100px;
+  padding: 5px 25px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  
+  
+}
+.menu ul li a:hover{
+  color: orange;
+  background: black;
+}
+.menu ul li:last-child a{
+  float: right;
+  margin-right: 0;
+  /* color: black;
+  background: orange;
+  margin: 0px 0px 0px 0px;
+   */
+}
+.menu ul .m1 a{
+  background: black;
+  color: orange;
+}
+/* .menu ul li:last-child a:hover{
+  background: black;
+  color: orange;
+} */
+/* fim da base do menu superior base home */
+.conteudo{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  /* !important  */
+  height: auto;
+  
+}
+
+.bloco{
+  display: inline-block;
+  text-align: center;
+}
+.bloco p{
+  /* O PRETO veio dessa ideia... */
+left: 90px;
+top: 1183px;
+font-family: 'Inter';
+/* font-style: italic; */
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: justify;
+color: #FFFFFF;
+margin: 20px 0px;
+
+
+}
+.bloco h2{
+  /* SOBRE NÓS */
+left: 578px;
+top: 933px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #D9D9D9;
+padding: 20px 0px;
+
+}
+.bloco h3{
+  /* “um lugar aberto para novo sem se esquecer do passado.” */
+left: 149px;
+top: 1037px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 42px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+}
+.bloco .center{
+  text-align: center;
+}
+
+.bloco img{
+  display: flex;
+  /* justify-content: center;
+  align-items: center !important; */
+  height:auto;
+  width: 100%;
+}
+
+
+footer{
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+footer div{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 35%;
+}
+
+
+
+
+

@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  font-family: Arial, sans-serif;
+  width: auto;
+  height: auto;
+  padding: 0px 50px;
+  color: #fff;
+  background: #000;
+  
+}
+header{
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: space-between; */
+  height: auto;
+}
+header img{
+  height: auto;
+  width: 250px;
+  
+}
+header div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div .entrar{
+  display: flex;
+  justify-content: space-between;
+}
+header .entrar ul li{
+  font-size: 16px;
+  /* background-color: #ec7913; */
+  border-radius: 4px;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  float: right;
+}
+header .entrar ul li a{
+  background-color: #ec7913; 
+  border-radius: 4px;
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 6px;
+  display: flex;
+  
+}
+.menu{
+  font-size: 12px;
+  width: auto;
+  background: #d9d9d9;
+  border: 0px solid orange;
+  border-radius: 0px;
+}
+.menu ul li{
+  display: inline;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.menu ul li a{
+  display: inline-block;
+  margin-right: 100px;
+  padding: 5px 25px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  
+  
+}
+.menu ul li a:hover{
+  color: orange;
+  background: black;
+}
+.menu ul li:last-child a{
+  float: right;
+  margin-right: 0;
+  /* color: black;
+  background: orange;
+  margin: 0px 0px 0px 0px;
+   */
+}
+.menu ul .m1 a{
+  background: black;
+  color: #ff902e;
+}
+/* .menu ul li:last-child a:hover{
+  background: black;
+  color: orange;
+} */
+
+.conteudo{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  /* !important  */
+  height: auto;
+  
+}
+/* fim da base do menu superior base home */
+.imagem{
+  display: flex;
+  /* justify-content: center;
+  align-items: center !important; */
+  height:980px;
+  width: auto;
+}
+
+footer{
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+footer div{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 35%;
+}
+
+
